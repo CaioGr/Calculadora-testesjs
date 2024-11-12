@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+}
+
+body {
+    background-color: #3e0e86;
+}
+
+#calculadora{
+    background-color: rgb(37, 37, 37);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 25%;
+    height: 70%;
+    transform: translate(-50%, -50%);
+    border-radius: 7%;
+}
+
+#tela {
+    padding-top: 5px;
+    padding-right: 1%;
+    font-size: 25px;
+    text-align: right;
+    margin-top:  10%; 
+    margin-left: 7.5%;
+    background-color: white;
+    color: black;
+    width: 85%;
+    height: 8%;
+}
+
+#botoes {
+    height: 75%;
+    width: 86%;
+    margin-top: 5%;
+    margin-left: 7.5%;
+}
+
+.botaon {
+    cursor: pointer;
+    font-size: 30px;
+    border: none;
+    background-color: #797979;
+    width: 68px;
+    height: 66px;
+    color: #fff;
+}
+
+.botaon:hover {
+    background-color: #575757;
+    color: #adadad;
+    font-size: 35px;
+}
+
+.botao0 {
+    cursor: pointer;
+    font-size: 30px;
+    border: none;
+    background-color: #797979;
+    width: 138px;
+    height: 66px;
+    color: white;
+}
+
+.botao0:hover {
+    background-color: #575757;
+    color: #adadad;
+    font-size: 35px;
+}
+
+.botaoi {
+    cursor: pointer;
+    font-size: 30px;
+    border: none;
+    background-color: #ff4800;
+    color: white;
+    width: 68px;
+    height: 134px;
+}
+
+.botaoi:hover {
+    background-color: #8f2800;
+    color: #adadad;
+    font-size: 35px;
+}

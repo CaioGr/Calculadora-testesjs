@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #3e0e86;
+}
+
+#bp {
+    width: 30%;
+    height: 50px;
+    border: none;
+    background-color: #4d4d4d;
+    color: #ffffff;
+    margin-left: 50%;
+    margin-top: 25%;
+    transform: translate(-50%, -50%);
+}

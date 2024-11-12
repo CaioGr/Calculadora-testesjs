@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <a href="index1.html">
+        <button id="bp">Calculadora</button>
+
+        <script>
+            alert("Bem vindo ao meu humilde site, espero que goste!!");
+
+            idade = parseInt(prompt("Para te dar algumas curiosidades, qual a sua idade?"))
+            let raizquadrada = Math.sqrt(idade);
+
+            if(idade >= 18){
+                alert("Você é maior de idade.");
+            }else{
+                alert("Você é menor de idade.");
+            }
+
+            alert("A raíz quadrada da sua idade é: "+ raizquadrada);
+
+            if(idade % 2 == 0){
+                alert("Sua idade atual, é um número par");
+            }else{
+                alert("Sua idade atual é um número ímpar");
+            }
+
+            alert("Os números de 1 até sua idade são: ");
+            for(x = 1; x <= idade; x++){
+                alert(x);
+            }
+        </script>
+    </a>
+</body>
+</html>
